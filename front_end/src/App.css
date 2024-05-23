@@ -1,0 +1,30 @@
+@page {
+  size: A6;
+  margin:21px;
+}
+
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  * {
+    font-size: 12px;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    font-family: sans-serif !important;
+  }
+}
