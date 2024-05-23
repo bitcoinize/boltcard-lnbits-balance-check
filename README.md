@@ -1,0 +1,1 @@
+docker buildx build --platform linux/amd64 --push --tag bitcoinize/boltcard-lnbits-balance-check .
